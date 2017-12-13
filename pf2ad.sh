@@ -46,7 +46,7 @@ mkdir -p /usr/local/etc/pkg/repos
 
 cat <<EOF > /usr/local/etc/pkg/repos/pf2ad.conf
 pf2ad: {
-    url: "https://github.com/pf2ad/packages/tree/master/All",
+    url: "http://github.com/pf2ad/packages/tree/master/All",
     mirror_type: "https",
     enabled: yes
 }
@@ -119,7 +119,7 @@ cp -f /usr/local/bin/ntlm_auth /usr/local/libexec/squid/ntlm_auth
 /etc/rc.d/ldconfig restart
 
 echo "$VERSION" > /etc/samba.patch.version
-© 2017 GitHub, Inc.
+Â© 2017 GitHub, Inc.
 Terms
 Privacy
 Security
